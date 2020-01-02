@@ -41,7 +41,7 @@ std::string convert(std::string s1, std::string s2, const WordSet & words)
 			std::string prevWord = wordMap[currWord]; //wordMap[currWord] returns the word that "points" to currWord
 			std::string path = currWord; //path contains s2
 
-			//Loop Backwards through adding each previous word to the path w/ proper format
+			//Loop Backward through adding each previous word to the path w/ proper format
 			while(prevWord != "")
 			{
 				path = prevWord + " --> " + path;
