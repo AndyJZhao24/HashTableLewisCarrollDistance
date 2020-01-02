@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/a.out.app.dir/app/Wordset.cpp.o"
+  "CMakeFiles/a.out.app.dir/app/hash.cpp.o"
   "CMakeFiles/a.out.app.dir/app/main.cpp.o"
-  "CMakeFiles/a.out.app.dir/app/proj4.cpp.o"
   "bin/a.out.app.pdb"
   "bin/a.out.app"
 )

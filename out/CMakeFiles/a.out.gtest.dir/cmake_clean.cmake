@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/a.out.gtest.dir/gtest/gtestmain.cpp.o"
   "CMakeFiles/a.out.gtest.dir/gtest/tests1.cpp.o"
   "CMakeFiles/a.out.gtest.dir/app/Wordset.cpp.o"
-  "CMakeFiles/a.out.gtest.dir/app/proj4.cpp.o"
+  "CMakeFiles/a.out.gtest.dir/app/hash.cpp.o"
   "bin/a.out.gtest.pdb"
   "bin/a.out.gtest"
 )

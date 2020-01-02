@@ -1,5 +1,5 @@
-#ifndef ___PROJECT_4_HPP
-#define ___PROJECT_4_HPP
+#ifndef ___HASH__HPP
+#define ___HASH__HPP
 
 #include <string>
 #include "Wordset.hpp"

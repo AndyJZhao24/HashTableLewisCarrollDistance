@@ -20,15 +20,9 @@ iostream
 string
 -
 
-/home/ics46b/projects/proj4/app/proj4.cpp
-proj4.hpp
-/home/ics46b/projects/proj4/app/proj4.hpp
-Wordset.hpp
-/home/ics46b/projects/proj4/app/Wordset.hpp
-iostream
--
-proj4.hpp
-/home/ics46b/projects/proj4/app/proj4.hpp
+/home/ics46b/projects/proj4/app/hash.cpp
+hash.hpp
+/home/ics46b/projects/proj4/app/hash.hpp
 Wordset.hpp
 /home/ics46b/projects/proj4/app/Wordset.hpp
 iostream
@@ -44,7 +38,7 @@ stack
 queue
 -
 
-/home/ics46b/projects/proj4/app/proj4.hpp
+/home/ics46b/projects/proj4/app/hash.hpp
 string
 -
 Wordset.hpp

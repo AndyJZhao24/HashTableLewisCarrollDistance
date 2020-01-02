@@ -10,7 +10,7 @@
 string
 -
 
-../app/proj4.hpp
+../app/hash.hpp
 string
 -
 Wordset.hpp
@@ -30,15 +30,9 @@ iostream
 string
 -
 
-/home/ics46b/projects/proj4/app/proj4.cpp
-proj4.hpp
-/home/ics46b/projects/proj4/app/proj4.hpp
-Wordset.hpp
-/home/ics46b/projects/proj4/app/Wordset.hpp
-iostream
--
-proj4.hpp
-/home/ics46b/projects/proj4/app/proj4.hpp
+/home/ics46b/projects/proj4/app/hash.cpp
+hash.hpp
+/home/ics46b/projects/proj4/app/hash.hpp
 Wordset.hpp
 /home/ics46b/projects/proj4/app/Wordset.hpp
 iostream
@@ -54,7 +48,7 @@ stack
 queue
 -
 
-/home/ics46b/projects/proj4/app/proj4.hpp
+/home/ics46b/projects/proj4/app/hash.hpp
 string
 -
 Wordset.hpp
@@ -69,8 +63,8 @@ gtest/gtest.h
 /home/ics46b/projects/proj4/gtest/gtest/gtest.h
 Wordset.hpp
 /home/ics46b/projects/proj4/gtest/Wordset.hpp
-proj4.hpp
-/home/ics46b/projects/proj4/gtest/proj4.hpp
+hash.hpp
+/home/ics46b/projects/proj4/gtest/hash.hpp
 string
 -
 fstream

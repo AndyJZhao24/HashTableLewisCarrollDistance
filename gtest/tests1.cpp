@@ -1,14 +1,10 @@
 #include "gtest/gtest.h"
 #include "Wordset.hpp"
-#include "proj4.hpp"
+#include "hash.hpp"
 #include <string>
 #include <fstream>
 
 namespace{
-
-
-// NOTE:  these are not intended as exhaustive tests.
-// This should get you started testing.
 
 
 TEST(HashFunctionTest, Hf1)
@@ -96,9 +92,6 @@ TEST(ConvertWords, AntToEat)
 
  	std::string r = convert("ant", "eat", words);
  	EXPECT_TRUE(r == "ant --> aft --> oft --> oat --> eat");
- 	// of course, if yours outputs a way to do this with exactly 5 words, it is also correct.
- 	// So maybe confirm if yours is right or not if this test appears to be failing.
- 	// I will be verifying it differently when I grade this assignment.
 }
 
 

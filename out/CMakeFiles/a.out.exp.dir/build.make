@@ -105,42 +105,42 @@ CMakeFiles/a.out.exp.dir/app/Wordset.cpp.o.provides: CMakeFiles/a.out.exp.dir/ap
 CMakeFiles/a.out.exp.dir/app/Wordset.cpp.o.provides.build: CMakeFiles/a.out.exp.dir/app/Wordset.cpp.o
 
 
-CMakeFiles/a.out.exp.dir/app/proj4.cpp.o: CMakeFiles/a.out.exp.dir/flags.make
-CMakeFiles/a.out.exp.dir/app/proj4.cpp.o: ../app/proj4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics46b/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a.out.exp.dir/app/proj4.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.exp.dir/app/proj4.cpp.o -c /home/ics46b/projects/proj4/app/proj4.cpp
+CMakeFiles/a.out.exp.dir/app/hash.cpp.o: CMakeFiles/a.out.exp.dir/flags.make
+CMakeFiles/a.out.exp.dir/app/hash.cpp.o: ../app/hash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics46b/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a.out.exp.dir/app/hash.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.exp.dir/app/hash.cpp.o -c /home/ics46b/projects/proj4/app/hash.cpp
 
-CMakeFiles/a.out.exp.dir/app/proj4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.exp.dir/app/proj4.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ics46b/projects/proj4/app/proj4.cpp > CMakeFiles/a.out.exp.dir/app/proj4.cpp.i
+CMakeFiles/a.out.exp.dir/app/hash.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.exp.dir/app/hash.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ics46b/projects/proj4/app/hash.cpp > CMakeFiles/a.out.exp.dir/app/hash.cpp.i
 
-CMakeFiles/a.out.exp.dir/app/proj4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.exp.dir/app/proj4.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ics46b/projects/proj4/app/proj4.cpp -o CMakeFiles/a.out.exp.dir/app/proj4.cpp.s
+CMakeFiles/a.out.exp.dir/app/hash.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.exp.dir/app/hash.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ics46b/projects/proj4/app/hash.cpp -o CMakeFiles/a.out.exp.dir/app/hash.cpp.s
 
-CMakeFiles/a.out.exp.dir/app/proj4.cpp.o.requires:
+CMakeFiles/a.out.exp.dir/app/hash.cpp.o.requires:
 
-.PHONY : CMakeFiles/a.out.exp.dir/app/proj4.cpp.o.requires
+.PHONY : CMakeFiles/a.out.exp.dir/app/hash.cpp.o.requires
 
-CMakeFiles/a.out.exp.dir/app/proj4.cpp.o.provides: CMakeFiles/a.out.exp.dir/app/proj4.cpp.o.requires
-	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/proj4.cpp.o.provides.build
-.PHONY : CMakeFiles/a.out.exp.dir/app/proj4.cpp.o.provides
+CMakeFiles/a.out.exp.dir/app/hash.cpp.o.provides: CMakeFiles/a.out.exp.dir/app/hash.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/hash.cpp.o.provides.build
+.PHONY : CMakeFiles/a.out.exp.dir/app/hash.cpp.o.provides
 
-CMakeFiles/a.out.exp.dir/app/proj4.cpp.o.provides.build: CMakeFiles/a.out.exp.dir/app/proj4.cpp.o
+CMakeFiles/a.out.exp.dir/app/hash.cpp.o.provides.build: CMakeFiles/a.out.exp.dir/app/hash.cpp.o
 
 
 # Object files for target a.out.exp
 a_out_exp_OBJECTS = \
 "CMakeFiles/a.out.exp.dir/exp/expmain.cpp.o" \
 "CMakeFiles/a.out.exp.dir/app/Wordset.cpp.o" \
-"CMakeFiles/a.out.exp.dir/app/proj4.cpp.o"
+"CMakeFiles/a.out.exp.dir/app/hash.cpp.o"
 
 # External object files for target a.out.exp
 a_out_exp_EXTERNAL_OBJECTS =
 
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/exp/expmain.cpp.o
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/Wordset.cpp.o
-bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/proj4.cpp.o
+bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/hash.cpp.o
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/build.make
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ics46b/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin/a.out.exp"
@@ -153,7 +153,7 @@ CMakeFiles/a.out.exp.dir/build: bin/a.out.exp
 
 CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/exp/expmain.cpp.o.requires
 CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/app/Wordset.cpp.o.requires
-CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/app/proj4.cpp.o.requires
+CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/app/hash.cpp.o.requires
 
 .PHONY : CMakeFiles/a.out.exp.dir/requires
 

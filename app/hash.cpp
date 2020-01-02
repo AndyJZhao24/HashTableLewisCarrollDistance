@@ -1,7 +1,4 @@
-#include "proj4.hpp"
-#include "Wordset.hpp"
-#include <iostream>
-#include "proj4.hpp"
+#include "hash.hpp"
 #include "Wordset.hpp"
 #include <iostream>
 #include <set>
@@ -10,7 +7,6 @@
 #include <stack>
 #include <queue>
 
-// You should not need to change this function.
 void loadWordsIntoTable(WordSet & words, std::istream & in)
 {
 	std::string line, word;
@@ -28,7 +24,6 @@ void loadWordsIntoTable(WordSet & words, std::istream & in)
 }
 
 
-// You probably want to change this function.
 std::string convert(std::string s1, std::string s2, const WordSet & words)
 {
 	std::queue<std::string> wordQueue; //Queue of possible words

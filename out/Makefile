@@ -182,6 +182,39 @@ app/Wordset.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/Wordset.cpp.s
 .PHONY : app/Wordset.cpp.s
 
+app/hash.o: app/hash.cpp.o
+
+.PHONY : app/hash.o
+
+# target to build an object file
+app/hash.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/hash.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/hash.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/hash.cpp.o
+.PHONY : app/hash.cpp.o
+
+app/hash.i: app/hash.cpp.i
+
+.PHONY : app/hash.i
+
+# target to preprocess a source file
+app/hash.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/hash.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/hash.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/hash.cpp.i
+.PHONY : app/hash.cpp.i
+
+app/hash.s: app/hash.cpp.s
+
+.PHONY : app/hash.s
+
+# target to generate assembly for a file
+app/hash.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/hash.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/hash.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/hash.cpp.s
+.PHONY : app/hash.cpp.s
+
 app/main.o: app/main.cpp.o
 
 .PHONY : app/main.o
@@ -208,39 +241,6 @@ app/main.s: app/main.cpp.s
 app/main.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/main.cpp.s
 .PHONY : app/main.cpp.s
-
-app/proj4.o: app/proj4.cpp.o
-
-.PHONY : app/proj4.o
-
-# target to build an object file
-app/proj4.cpp.o:
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/proj4.cpp.o
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/proj4.cpp.o
-	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/proj4.cpp.o
-.PHONY : app/proj4.cpp.o
-
-app/proj4.i: app/proj4.cpp.i
-
-.PHONY : app/proj4.i
-
-# target to preprocess a source file
-app/proj4.cpp.i:
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/proj4.cpp.i
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/proj4.cpp.i
-	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/proj4.cpp.i
-.PHONY : app/proj4.cpp.i
-
-app/proj4.s: app/proj4.cpp.s
-
-.PHONY : app/proj4.s
-
-# target to generate assembly for a file
-app/proj4.cpp.s:
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/proj4.cpp.s
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/proj4.cpp.s
-	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/proj4.cpp.s
-.PHONY : app/proj4.cpp.s
 
 exp/expmain.o: exp/expmain.cpp.o
 
@@ -337,12 +337,12 @@ help:
 	@echo "... app/Wordset.o"
 	@echo "... app/Wordset.i"
 	@echo "... app/Wordset.s"
+	@echo "... app/hash.o"
+	@echo "... app/hash.i"
+	@echo "... app/hash.s"
 	@echo "... app/main.o"
 	@echo "... app/main.i"
 	@echo "... app/main.s"
-	@echo "... app/proj4.o"
-	@echo "... app/proj4.i"
-	@echo "... app/proj4.s"
 	@echo "... exp/expmain.o"
 	@echo "... exp/expmain.i"
 	@echo "... exp/expmain.s"
